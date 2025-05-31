@@ -22,14 +22,14 @@ This project allows users to roll one or multiple dice and view the results with
 
 ---
 
-## 🎮 Live Demo
+## 🚀 Live Demo
 
-🔗 [Click here to play the Dice Roller Simulator](https://Ya5h525.github.io/dice-roller-simulator)  
+Coming soon!
 
 ---
+## 🛠 How to Run Locally
 
-## 📂 How to Run Locally
+1. Click the green **Code** button on this page and select **Download ZIP**
+2. Extract the downloaded ZIP file
+3. Open `index.html` in your browser
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/dice-roller-simulator.git

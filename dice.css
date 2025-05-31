@@ -1,0 +1,99 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Header */
+#h1 {
+  margin-top: 10%;
+  font-size: 3rem;
+  color: #004d40;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #b2dfdb;
+}
+
+/* Container */
+#container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 16px;
+ 
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Label and Input */
+#label {
+  font-size: 1.2rem;
+  color: #00695c;
+  margin-right: 10px;
+}
+
+input[type="number"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  width: 60px;
+  text-align: center;
+  border: 2px solid #80cbc4;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+#button {
+  padding: 10px 20px;
+  background-color: #033c36;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 15px;
+  
+}
+
+#button:hover {
+  background-color: #057865;
+}
+
+#button:active{
+    background-color: #2dd6ba;
+}
+
+/* Results */
+#diceresult {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #004d40;
+}
+
+#diceimages {
+   
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dice-img{
+    margin-top: 10px;
+    margin-left: 10px;
+  width: 100px;
+  height: auto;
+ 
+}
